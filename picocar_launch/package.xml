@@ -4,7 +4,7 @@
   <version>0.0.0</version>
   <description>Launch files for the picocar project</description>
 
-  <maintainer email="james@jamesmakesrobots.com">james</maintainer>
+  <maintainer email="james@jamesmakesrobots.com">James Baxter</maintainer>
 
   <license>MIT</license>
 
@@ -14,7 +14,7 @@
   <!-- Example: -->
   <!-- <url type="website">http://wiki.ros.org/picocar_launch</url> -->
 
-  <author email="james@jamesmakesrobots.com">james</author>
+  <author email="james@jamesmakesrobots.com">James Baxter</author>
   <!-- The *depend tags are used to specify dependencies -->
   <!-- Dependencies can be catkin packages or system dependencies -->
   <!-- Examples: -->
@@ -36,4 +36,8 @@
   <!-- Use doc_depend for packages you need only for building documentation: -->
   <!--   <doc_depend>doxygen</doc_depend> -->
   <buildtool_depend>catkin</buildtool_depend>
+  <exec_depend>rospy</exec_depend>
+  <exec_depend>cv_camera</exec_depend>
+  <exec_depend>joy</exec_depend>
+  <exec_depend>rqt_image_view</exec_depend>
 </package>

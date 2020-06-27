@@ -1,7 +1,6 @@
 <launch>
-  <!-- <include file="$(find picocar_launch)/launch/teleop/fpv_cam.launch" /> -->
-  <node name="fpv_cam_silent" pkg="picocar_launch" type="fpv_cam_silent.sh" />
-  <node name="fpv_cam_display" pkg="rqt_image_view" type="rqt_image_view" args="/fpv_cam/image_raw"/>
+  <include file="$(find picocar_launch)/launch/fpv_cam.launch" /> -->
+  <node name="fpv_cam_display" pkg="rqt_image_view" type="rqt_image_view" args="/camera/image_raw"/>
 
   <node name="joy_node" pkg="joy" type="joy_node" />
   <node name="joystick_control_node" pkg="picocar_launch" type="joystick_control.py" output="screen"/>

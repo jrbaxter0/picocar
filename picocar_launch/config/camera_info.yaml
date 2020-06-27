@@ -1,0 +1,26 @@
+image_width: 640
+image_height: 480
+camera_name: fpv_cam
+camera_matrix:
+  rows: 3
+  cols: 3
+  data: [ 230.06901,    0.     ,  308.75463,
+            0.     ,  226.35203,  226.32306,
+            0.     ,    0.     ,    1.     ]
+distortion_model: rational_polynomial
+distortion_coefficients:
+  rows: 1
+  cols: 8
+  data: [2.364204, 6.685602, -0.000372, 0.001942, 0.357882, 2.316135, 5.644737, 1.158435]
+rectification_matrix:
+  rows: 3
+  cols: 3
+  data: [ 1.,  0.,  0.,
+          0.,  1.,  0.,
+          0.,  0.,  1.]
+projection_matrix:
+  rows: 3
+  cols: 4
+  data: [ 211.3658 ,    0.     ,  306.40065,    0.     ,
+            0.     ,  230.96025,  223.25759,    0.     ,
+            0.     ,    0.     ,    1.     ,    0.     ]
